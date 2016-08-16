@@ -234,8 +234,11 @@ var default_responses = [
   "Please continue",
   "Go on",
   "Do you feel strongly about discussing such things?",
+  ],
+  "~*x Henrietta ~*y": [
+  	"What a lovely name!"
+  	],
 ];
-
 function choice(lst) {
   var i = Math.floor(Math.random() * lst.length);
   return lst[i];
